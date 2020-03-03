@@ -28,11 +28,15 @@ body{
 }
 
 .calculator-grid > button:hover{
-    background-color: rgba(255, 255, 255, .9);
+    background-color: id="red";
 }
 
 .span-two{
   grid-column: span 2;
+}
+
+#red{
+  background-color: rgba(255, 0, 0, .8);
 }
 
 .output{
